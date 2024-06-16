@@ -21,7 +21,8 @@ from django.utils import timezone
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_protect
 from latex.build import PdfLatexBuilder
-from ratelimit.decorators import ratelimit
+from django_ratelimit.decorators import ratelimit
+# from ratelimit.decorators import ratelimit
 
 from management.authentication import management_login_required
 from management.forms import (

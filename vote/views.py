@@ -7,7 +7,8 @@ from django.http.response import HttpResponseNotFound
 from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse
 from django.utils.decorators import method_decorator
-from ratelimit.decorators import ratelimit
+# from ratelimit.decorators import ratelimit
+from django_ratelimit.decorators import ratelimit
 from asgiref.sync import async_to_sync
 from channels.layers import get_channel_layer
 

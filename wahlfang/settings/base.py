@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'vote',
     'management',
     'channels',
+    "crispy_bootstrap4"
 ]
 
 if EXPORT_PROMETHEUS_METRICS:
@@ -187,3 +188,4 @@ LOGGING = {
         },
     },
 }
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'

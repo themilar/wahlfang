@@ -1,4 +1,5 @@
 /venv/
+/env/
 *.pyc
 .idea
 *.sqlite3
@@ -6,4 +7,5 @@
 /media
 /build
 /dist
+.env
 wahlfang.egg-info
