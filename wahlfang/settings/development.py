@@ -26,9 +26,11 @@ DATABASES = {
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-# Mail
-EMAIL_HOST = 'mail.stusta.de'
-EMAIL_SENDER = 'no-reply@stusta.de'
+# # Mail
+# EMAIL_HOST = 'mail.stusta.de'
+# EMAIL_SENDER = 'no-reply@stusta.de'
+
+EMAIL_BACKEND="django.core.mail.backends.console.EmailBackend"
 EMAIL_PORT = 25
 
 # LDAP
